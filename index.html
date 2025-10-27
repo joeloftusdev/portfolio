@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Loftus - Software Engineer</title>
+    <meta name="description" content="Joe Loftus - Software Engineer specializing in C++, audio software, and web development. Based in Hastings, UK.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Joe Loftus</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Joe Loftus</span>
+                </h1>
+                <h2 class="hero-subtitle">Software Engineer</h2>
+                <p class="hero-description">
+                    Specializing in cross-platform audio software, modern C++, and web development. 
+                    Based in the UK.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:joeloftusdev@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/joeloftusdev" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/joeloftus94" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate software engineer with a unique background that combines technical expertise 
+                        with creative problem-solving. Currently working freelance and at my own company Sanctuary DSP, 
+                        I develop diverse software solutions ranging from web and mobile applications to specialized 
+                        cross-platform, low-latency audio software using modern C++, Go, Python, and JavaScript.
+                    </p>
+                    <p>
+                        My journey spans from music performance & production to full-stack software development, 
+                        giving me a deep understanding of both the technical and artistic sides of technology. 
+                        I'm particularly passionate about real-time DSP, neural audio processing, and creating 
+                        tools that empower musicians and audio professionals, while also delivering robust web applications, 
+                        desktop software, mobile apps, and enterprise solutions across various industries.
+                    </p>
+                    <p>
+                        When I'm not coding client projects, you'll find me contributing to open-source initiatives across 
+                        multiple domains - from audio software projects like collaborating with the <a href="https://surge-synth-team.org/" target="_blank">Surge Synthesizer team</a>, 
+                        to developing CI/CD migration tools and general-purpose software solutions that solve real-world problems 
+                        for developers and creators alike.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">C++</span>
+                        <span class="skill-tag featured">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Golang</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">JUCE</span>
+                        <span class="skill-tag">QT</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">.NET</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">REST</span>
+                        <span class="skill-tag">JWT</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">Git</span>
+                        <span class="skill-tag featured">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">TeamCity</span>
+                        <span class="skill-tag">CMake</span>
+                        <span class="skill-tag">Linux</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Specialized Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">TensorFlow</span>
+                        <span class="skill-tag featured">PyTorch</span>
+                        <span class="skill-tag">ONNX</span>
+                        <span class="skill-tag">OpenGL</span>
+                        <span class="skill-tag">DirectX</span>
+                        <span class="skill-tag">MIDI</span>
+                        <span class="skill-tag">LLVM</span>
+                        <span class="skill-tag">Blender</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>SanctuaryDSP.com • Hastings, UK</h4>
+                        <ul>
+                            <li>Develop cross-platform, low-latency audio software in modern C++ (C++17/20) using JUCE</li>
+                            <li>Design real-time DSP and plugin architectures for DAWs with memory-safe C++ practices</li>
+                            <li>Optimize multi-threaded audio code for CPU-constrained systems using SIMD/GPU</li>
+                            <li>Develop neural models for stem separation and amplifier modeling with TensorFlow/PyTorch</li>
+                            <li>Maintain cross-platform CI/CD pipelines for Windows, macOS, and Linux</li>
+                            <li>Design secure licensing systems and build company website with custom integrations</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Freelance Software Engineer</h3>
+                        <h4>Various Clients • UK</h4>
+                        <ul>
+                            <li>Developed responsive web, desktop, and mobile applications for multiple clients</li>
+                            <li>Implemented backend services using Golang, Python, and Java</li>
+                            <li>Created mobile applications with Kotlin and Swift</li>
+                            <li>Delivered projects using agile methodologies and collaborative tools</li>
+                            <li>Contributed to open-source projects and developer community</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Mar 2015 - Jan 2022</div>
+                    <div class="timeline-content">
+                        <h3>Guitarist & Audio Engineer</h3>
+                        <h4>Various Artists • UK</h4>
+                        <ul>
+                            <li>Recorded, produced, and mastered music using professional DAWs including Pro Tools</li>
+                            <li>Performed as session musician and provided live FOH/monitor mixing</li>
+                            <li>Worked as private guitar tutor with custom booking website</li>
+                            <li>Achieved Pro Tools certification and extensive studio workflow experience</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Jan 2017 - Dec 2020</div>
+                    <div class="timeline-content">
+                        <h3>IT Support & Developer</h3>
+                        <h4>Music and Goods Exchange Ltd. • UK</h4>
+                        <ul>
+                            <li>Designed and implemented PHP/MySQL time and attendance system</li>
+                            <li>Built admin dashboards with role-based access and payroll integration</li>
+                            <li>Maintained network infrastructure and payment terminal systems</li>
+                            <li>Managed Amazon storefront integration and order fulfillment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-music project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>OB-Xf Synthesizer</h3>
+                        <p>Founded and led modernization of legacy synthesizer codebase to C++17/20. Featured in various audio publications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">JUCE</span>
+                            <span class="tech-tag">DSP</span>
+                            <span class="tech-tag">GitHub Actions</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/surge-synthesizer/OB-Xf" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code-branch project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>TeamCity2GitLab</h3>
+                        <p>Migration tool for CI/CD systems. Served as solution between NatWest Bank and GitLab for platform migration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Go</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">CI/CD</span>
+                            <span class="tech-tag">GitLab</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/joeloftusdev/teamcity2gitlab" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sanctuary DSP Website</h3>
+                        <p>Custom WordPress/PHP site with JavaScript integrations, payment systems, and automated deployment.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">SSL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://sanctuarydsp.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Visit Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-music project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Backtrack</h3>
+                        <p>Cross-platform C++ desktop application for real-time audio stem separation. Built with modern C++ and JUCE framework, featuring advanced DSP algorithms and machine learning models for isolating individual instruments from mixed audio tracks with professional-grade quality.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">DSP</span>
+                            <span class="tech-tag">Stem Separation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://sanctuarydsp.com/backtrack" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Visit Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects. 
+                        Whether you need audio software development, web applications, or 
+                        have an innovative idea to discuss, I'd love to hear from you.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:joeloftusdev@gmail.com">joeloftusdev@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>UK</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/joeloftusdev" target="_blank">joeloftusdev</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/joeloftus94" target="_blank">joeloftus94</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Joe Loftus. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:joeloftusdev@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/joeloftusdev" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/joeloftus94" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
